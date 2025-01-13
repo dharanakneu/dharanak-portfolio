@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import profilePic from '../assets/kevinRushProfile.png'
+import profilePic from '../assets/dharanakProfile.png'
 
 const Hero = () => {
   return (
