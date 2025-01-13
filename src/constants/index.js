@@ -15,15 +15,17 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    thoughtworks,
+    cybage,
+    parkmate,
     threejs,
   } from "../assets";
+  import { FaHtml5, FaCss3Alt, FaJs, FaJava, FaReact, FaAngular, FaPython, FaAws, FaDocker } from "react-icons/fa";
+  import { BiLogoSpringBoot, BiLogoPostgresql } from "react-icons/bi";
+  import { TfiMicrosoftAlt } from "react-icons/tfi";
+  import { DiMsqlServer, DiMysql } from "react-icons/di";
+  import { FaGolang } from "react-icons/fa6";
+  import { PiFileCpp, PiFileCSharp } from "react-icons/pi";
   
   export const navLinks = [
     {
@@ -35,137 +37,166 @@ import {
       title: "Work",
     },
     {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
   ];
   
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
-  
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Java",
+      icon: FaJava,
+      duration: 2,
+      color: "#FFA500", 
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Spring Boot",
+      icon: BiLogoSpringBoot,
+      duration: 1.5,
+      color: "#00FF00", 
+    },
+    {
+      name: ".NET",
+      icon: TfiMicrosoftAlt,
+      duration: 3.5,
+      color: "#0000FF", 
+    },
+    {
+      name: "C#",
+      icon: PiFileCSharp,
+      duration: 2,
+      color: "#9179E4", 
+    },
+    {
+      name: "Python",
+      icon: FaPython,
+      duration: 4.5,
+      color: "#FFFF00", 
+    },
+    {
+      name: "Golang",
+      icon: FaGolang,
+      duration: 3.5,
+      color: "#00ADD8", 
+    },
+    {
+      name: "React",
+      icon: FaReact,
+      duration: 2.5,
+      color: "#61dafb", 
+    },
+    {
+      name: "Angular",
+      icon: FaAngular,
+      duration: 4,
+      color: "#dd1b16", 
+    },
+    {
+      name: "AWS",
+      icon: FaAws,
+      duration: 2.5,
+      color: "#FF9900", 
+    },
+    {
+      name: "Docker",
+      icon: FaDocker,
+      duration: 3.5,
+      color: "#0db7ed", 
+    },
+    {
+      name: "Postgres",
+      icon: BiLogoPostgresql,
+      duration: 3,
+      color: "#336791", 
+    },
+    {
+      name: "Microsoft SQL Server",
+      icon: DiMsqlServer,
+      duration: 2,
+      color: "#FFFF00", 
+    },
+    {
+      name: "MySQL",
+      icon: DiMysql,
+      duration: 2,
+      color: "#336791", 
     },
     {
       name: "JavaScript",
-      icon: javascript,
+      icon: FaJs,
+      duration: 3,
+      color: "#F7DF1E",
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C++",
+      icon: PiFileCpp,
+      duration: 2.5,
+      color: "#F7DF1E",
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "HTML 5",
+      icon: FaHtml5,
+      duration: 2.5,
+      color: "#E34F26",
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "CSS 3",
+      icon: FaCss3Alt,
+      duration: 4,
+      color: "#1572B6",
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Developer Consultant",
+      company_name: "Thoughtworks",
+      icon: thoughtworks,
+      iconBg: "#FFFFFF",
+      date: "May 2022 - Aug 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to 3 high-impact projects spanning the domains of banking, financial services, & consumer data management, demonstrating adaptability & technical versatility.",
+        "Played a key role in backend system migration, modernization and microservices development, enhancing system efficiency & scalability.",
+        "Optimized data workflows, improved system resilience, & championed Agile practices, significantly boosting team proficiency & project delivery"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Software Engineer",
+      company_name: "Cybage",
+      icon: cybage,
+      iconBg: "#FFFFFF",
+      date: "Jul 2019 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Tackled complex legacy technologies, working with a diverse tech stack for an environmental, health & safety (EHS) product, showcasing strong technical skills & problem-solving abilities.",
       ],
     },
+  ];
+  
+  const projects = [
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+      name: "ParkMate",
+      description:
+        "Revolutionized urban parking with a platform that empowers users to monetize their unused parking spaces, turning driveways and private spots into income-generating assets while helping drivers effortlessly locate and reserve parking in real time.",
+      tags: [
+        {
+          name: "java",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "spring mvc",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "blue-text-gradient",
+        },
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      image: parkmate,
+      source_code_link: "https://github.com/dharanakneu/ParkMate",
     },
   ];
   
@@ -195,71 +226,25 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
-  
-  const projects = [
+
+  const services = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      title: "Web Developer",
+      icon: web,
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      title: "React Native Developer",
+      icon: mobile,
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      title: "Backend Developer",
+      icon: backend,
+    },
+    {
+      title: "Content Creator",
+      icon: creator,
     },
   ];
   
+
   export { services, technologies, experiences, testimonials, projects };

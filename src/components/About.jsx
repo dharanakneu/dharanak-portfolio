@@ -40,25 +40,25 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About Me.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        After working for over four years in the industry, I am taking a significant step forward in my academic journey, pursuing a Master’s in Software Engineering Systems at Northeastern University.
+        What began as a simple curiosity about technology has grown into a deep commitment to solving complex challenges and creating innovative solutions.
+        Throughout my career, I have successfully driven projects in banking, financial services, and consumer data management, and showcased my skills in backend system modernization, microservices architecture, and data workflow optimization.
+        I’ve worked with a range of technologies, including Java, .NET, Golang, Python and various DevOps tools, delivering scalable and efficient systems.
+        <br/> <br/> If you’re equally passionate about creating innovative solutions, let’s connect and build something extraordinary together!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
 
     </>
   )

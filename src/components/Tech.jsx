@@ -1,12 +1,14 @@
 import React from 'react'
 import {RiReactjsLine} from "react-icons/ri"
-import {BiLogoPostgresql} from "react-icons/bi"
+import { styles } from "../styles";
 import {motion} from "framer-motion"
+import { fadeIn, textVariant } from "../utils/motion";
+import { technologies } from "../constants";
 
 const iconVariants = (duration) => ({
-  initial: {y:-10},
+  initial: {y:-8},
   animate: {
-    y: [10, -10],
+    y: [8, -8],
     transition: {
       duration: duration,
       ease: "linear",
@@ -18,39 +20,30 @@ const iconVariants = (duration) => ({
 
 const Tech = () => {
   return (
-    <div className='border-b border-neutral-800 pb-24'>
-      <h1 className='my-20 text-center text-4xl'>Technologies</h1>
-      <div className='flex flex-wrap items-center justify-center gap-4'>
+    <>
+      <motion.div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} text-center`}>
+          My Skills
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+          Technologies.
+        </h2>
+      </motion.div>
+
+      <div className='flex flex-wrap mt-8 items-center justify-center gap-4 px-2 md:px-12'>
+      {technologies.map((technology, index) => (
         <motion.div
-        variants={iconVariants(2.5)}
-        initial="initial"
-        animate="animate"
-         className='rounded-2xl border-4 border-neutral-800 p-4'>
-          <RiReactjsLine className='text-3xl text-cyan-400'/>
+          key={index}
+          variants={iconVariants(technology.duration)}
+          initial="initial"
+          animate="animate"
+          className='flex items-center rounded-2xl border-4 border-neutral-800 p-2 gap-1'>
+            <technology.icon className='text-xl' style={{ color: technology.color }} />
+            <span className="text-sm font-medium text-white">{technology.name}</span>
         </motion.div>
-        <motion.div
-        variants={iconVariants(3)}
-        initial="initial"
-        animate="animate"
-         className='rounded-2xl border-4 border-neutral-800 p-4'>
-          <BiLogoPostgresql className='text-3xl text-sky-700'/>
-        </motion.div>
-        <motion.div
-        variants={iconVariants(5)}
-        initial="initial"
-        animate="animate" 
-        className='rounded-2xl border-4 border-neutral-800 p-4'>
-          <BiLogoPostgresql className='text-3xl text-sky-700'/>
-        </motion.div>
-        <motion.div
-        variants={iconVariants(2)}
-        initial="initial"
-        animate="animate"
-         className='rounded-2xl border-4 border-neutral-800 p-4'>
-          <BiLogoPostgresql className='text-3xl text-sky-700'/>
-        </motion.div>
+      ))}
       </div>
-    </div>
+    </>
   )
 }
 
