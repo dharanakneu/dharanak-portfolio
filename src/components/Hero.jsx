@@ -30,7 +30,7 @@ const Hero = () => {
           <img
                 src={profilePic}
                 alt="Dharana Kashyap"
-                className="w-full max-w-sm lg:max-w-md"
+                className="w-full max-w-sm lg:max-w-md rounded-2xl"
               />
         </div>
       </div>
