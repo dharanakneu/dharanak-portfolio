@@ -1,26 +1,9 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
     thoughtworks,
     cybage,
     parkmate,
     grab,
     experian,
-    threejs,
   } from "../assets";
   import { FaHtml5, FaCss3Alt, FaJs, FaJava, FaReact, FaAngular, FaPython, FaAws, FaDocker } from "react-icons/fa";
   import { BiLogoSpringBoot, BiLogoPostgresql } from "react-icons/bi";
@@ -275,22 +258,22 @@ import {
   ];
 
   const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Web Developer",
+    //   icon: web,
+    // },
+    // {
+    //   title: "React Native Developer",
+    //   icon: mobile,
+    // },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
 
