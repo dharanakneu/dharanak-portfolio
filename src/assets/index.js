@@ -25,6 +25,8 @@ import thoughtworks from "./company/thoughtworks.png";
 import cybage from "./company/cybage.png"
 
 import parkmate from "./parkmate.jpeg"
+import grab from "./grab.png"
+import experian from "./experian.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -53,6 +55,8 @@ export {
   thoughtworks,
   cybage,
   parkmate,
+  grab,
+  experian,
   jobit,
   tripguide,
 };

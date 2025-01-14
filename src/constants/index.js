@@ -18,6 +18,8 @@ import {
     thoughtworks,
     cybage,
     parkmate,
+    grab,
+    experian,
     threejs,
   } from "../assets";
   import { FaHtml5, FaCss3Alt, FaJs, FaJava, FaReact, FaAngular, FaPython, FaAws, FaDocker } from "react-icons/fa";
@@ -197,6 +199,51 @@ import {
       ],
       image: parkmate,
       source_code_link: "https://github.com/dharanakneu/ParkMate",
+    },
+    {
+      name: "GRAB SuperBank",
+      description:
+        "Implemented Face Match and Liveness Check feature, reducing identity fraud by up to 95%. Integrated new features such as SMS, Email and Push Notification functionalities, facilitating 2FA, immediate alerts & timely reminders to users on transactions.",
+      tags: [
+        {
+          name: "golang",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "terraform",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: grab,
+    },
+    {
+      name: "Experian – Data Ingestion",
+      description:
+        "Enhanced data processing workflows by designing and implementing a Matching & Pinning Rule Engine, creating a Rule Evaluator & Executor to efficiently process & apply rules to data events from Kafka and optimizing data processing across multiple queues.",
+      tags: [
+        {
+          name: ".net",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "c-sharp",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "postgresql",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: experian,
     },
   ];
   
