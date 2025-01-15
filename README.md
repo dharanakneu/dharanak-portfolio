@@ -1,3 +1,10 @@
+# Portfolio - Dharana Kashyap
+
+Welcome to my portfolio! This repository showcases my professional and academic journey, featuring projects, skills, and accomplishments that highlight my expertise in software engineering and development.
+
+## Link to my portfolio:
+- **Portfolio:** [Portfolio - Dharana Kashyap](https://dharanakashyap.netlify.app)
+
 ## Disclaimer
 
 This repository is intended solely for **evaluation purposes** to showcase my coding skills, design practices, and technical expertise. 
