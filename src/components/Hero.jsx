@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import profilePic from '../assets/dharanakProfile.png'
 import githubIcon from '../assets/icons/github-dark.svg';
 import linkedinIcon from '../assets/icons/linkedin-dark.svg';
-import CV from '../assets/DharanaKashyapResume.pdf';
+import CV from '../assets/DharanaKashyapResume_20250204.pdf';
 import { transition } from "three/examples/jsm/tsl/display/TransitionNode.js";
 
 const container = (delay) => ({
