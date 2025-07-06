@@ -8,6 +8,7 @@ import cybage from "./company/cybage.png"
 import parkmate from "./parkmate.jpeg"
 import grab from "./grab.png"
 import experian from "./experian.png"
+import tesla from "./company/tesla-white.png"
 
 export {
   github,
@@ -18,4 +19,5 @@ export {
   parkmate,
   grab,
   experian,
+  tesla
 };

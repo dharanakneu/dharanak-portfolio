@@ -4,6 +4,7 @@ import {
     parkmate,
     grab,
     experian,
+    tesla
   } from "../assets";
   import { FaHtml5, FaCss3Alt, FaJs, FaJava, FaReact, FaAngular, FaPython, FaAws, FaDocker } from "react-icons/fa";
   import { BiLogoSpringBoot, BiLogoPostgresql } from "react-icons/bi";
@@ -137,6 +138,18 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software Engineer Intern",
+      company_name: "Tesla",
+      icon: tesla,
+      iconBg: "#E31937",
+      date: "May 2025 - Aug 2025",
+      points: [
+        "Contributed to the development of backend services powering Tesla’s global tax compliance infrastructure, enabling accurate and scalable tax computation across energy, retail, manufacturing, and service domains.",
+        "Integrated internal platforms with third-party tax engines (e.g., Vertex, Avalara) to automate real-time tax calculation and ensure regulatory compliance across multiple international jurisdictions.",
+        "Gained deep exposure to enterprise architecture, financial systems, and large-scale backend engineering in a high-impact, fast-paced environment."
+      ]
+    },
     {
       title: "Developer Consultant",
       company_name: "Thoughtworks",

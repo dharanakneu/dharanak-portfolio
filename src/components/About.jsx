@@ -51,6 +51,8 @@ const About = () => {
         What began as a simple curiosity about technology has grown into a deep commitment to solving complex challenges and creating innovative solutions.
         Throughout my career, I have successfully driven projects in banking, financial services, and consumer data management, and showcased my skills in backend system modernization, microservices architecture, and data workflow optimization.
         I’ve worked with a range of technologies, including Java, .NET, Golang, Python and various DevOps tools, delivering scalable and efficient systems.
+        <br/> Currently, I’m interning at Tesla as a Software Engineering Intern on the Tax &amp; Accounting Team, where I’m building backend systems that support Tesla’s global financial operations. 
+        From designing APIs to integrating tax engines, I’m contributing to high-impact services that ensure accuracy, compliance, and performance across Tesla’s operations.
         <br/> <br/> If you’re equally passionate about creating innovative solutions, let’s connect and build something extraordinary together!
       </motion.p>
 
